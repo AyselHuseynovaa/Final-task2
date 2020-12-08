@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  color: black;
+  font-family: "Rubik", sans-serif;
+}
+
+body .main-row {
+  background-color: white;
+  min-height: 900px;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+body .main-row .left-col {
+  border-right: 1px ridge;
+}
+
+body .main-row .left-col header {
+  height: 10rem;
+}
+
+body .main-row .left-col header .row-header {
+  margin-left: 0rem;
+  margin-right: 0rem;
+  padding-top: 4rem;
+  padding-left: 4rem;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+body .main-row .left-col header .logo {
+  color: orange;
+}
+
+body .main-row .left-col header .center-col .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+body .main-row .left-col header .center-col .nav a {
+  color: black;
+  font-size: 25px;
+}
+
+body .main-row .left-col header .right-col {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin: auto 0;
+}
+
+body .main-row .left-col main .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 1.5rem;
+}
+
+body .main-row .left-col main .box .item1 img {
+  width: 140px;
+}
+
+body .main-row .left-col main .box .item2 {
+  text-align: center;
+}
+
+body .main-row .left-col main .box .item2 p {
+  color: #979292;
+}
+
+body .main-row .left-col main .row {
+  margin-top: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+body .main-row .left-col main .row .card {
+  border: none;
+}
+
+body .main-row .left-col main .row .card img {
+  border-radius: 15px;
+  height: 330px;
+  width: 250px;
+}
+
+body .main-row .left-col main .row .card .card-body p {
+  color: #979797;
+  font-size: 18px;
+}
+
+body .main-row .right-col .parent-box {
+  margin-top: 4.5rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+body .main-row .right-col .parent-box .icon-box1 {
+  height: 5rem;
+  padding-left: 17rem;
+}
+
+body .main-row .right-col .parent-box .box2,
+body .main-row .right-col .parent-box .box3,
+body .main-row .right-col .parent-box .box4 {
+  margin-bottom: 3rem;
+  border-radius: 10px;
+  height: 10rem;
+  padding: 2rem 1rem;
+  background-color: whitesmoke;
+}
+
+body .main-row .right-col .parent-box .box2 ul,
+body .main-row .right-col .parent-box .box3 ul,
+body .main-row .right-col .parent-box .box4 ul {
+  list-style-type: none;
+}
+
+body .main-row .right-col .parent-box .box2 ul li,
+body .main-row .right-col .parent-box .box3 ul li,
+body .main-row .right-col .parent-box .box4 ul li {
+  margin-bottom: 0.3rem;
+}
+
+body .main-row .right-col .parent-box .box2 img,
+body .main-row .right-col .parent-box .box3 img,
+body .main-row .right-col .parent-box .box4 img {
+  margin-right: 10px;
+}
+
+body .main-row .right-col .parent-box .box2 span,
+body .main-row .right-col .parent-box .box3 span,
+body .main-row .right-col .parent-box .box4 span {
+  color: black;
+  opacity: 0.6;
+}
+
+body .main-row .right-col .parent-box .box5 {
+  background-color: #fcfafa;
+  border-radius: 25px;
+  height: 10rem;
+  font-size: 18px;
+  padding: 2rem 1rem;
+  margin-top: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .main-row .right-col .parent-box .box5 ul {
+  list-style-type: none;
+}
+
+body .main-row .right-col .parent-box .box5 ul li {
+  margin-bottom: 0.4rem;
+}
+
+body .main-row .right-col .parent-box .box5 span {
+  color: black;
+  opacity: 0.6;
+}
+
+body .main-row .right-col .parent-box .btn {
+  border-radius: 15px;
+  background-color: #f8b63a;
+  padding: 15px 20px;
+  margin-top: 2rem;
+  margin-left: 25rem;
+}
+/*# sourceMappingURL=style.css.map */

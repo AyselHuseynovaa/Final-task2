@@ -1,0 +1,55 @@
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+   header{
+       height: 7rem !important;
+   }
+   .row-header{
+       padding-top: 1rem !important;
+   }
+.row{
+    margin-left: 0 !important;
+    margin-right: 0!important;
+}
+
+.center-col{
+    display: none !important;
+}
+
+.card-img-top{
+    width: 300px !important;
+  
+}
+.parent-box{
+    min-height: 700px !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+.icon-box1{
+    padding-left: 0 !important;
+}
+.box2,.box3,.box4,.box5{
+    margin-bottom: 0 !important;
+}
+.box3{
+    font-size: 16px;
+    height: 11rem !important; 
+    width: 100%;
+}
+
+.btn{
+    font-size: 12px!important;
+    margin-left: 0 !important;
+}
+}
